@@ -1,7 +1,7 @@
 <br>
 <p align="center">
   
-  <img src="https://raw.githubusercontent.com/eosiswastaken/books-scraper/main/.github/assets/bs4.png"/>
+  <img src="https://raw.githubusercontent.com/eosiswastaken/books-scraper/main/.github/assets/bs4.png?token=GHSAT0AAAAAACKP7XYNM6IVDYTVE5X6MZVMZON5B6Q"/>
 
 </p>
 <br>
@@ -43,6 +43,14 @@ entrer dans le repo
 
 ```bash
 cd books-scraper
+```
+
+(activer l'environnement virtuel)
+
+installer les dependencies
+
+```bash
+pip install -r requirements.txt
 ```
 
 quelques exemples d'utilisation du scraper :
