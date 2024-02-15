@@ -1,7 +1,9 @@
 <br>
+<p align="center">
+  
+  <img src="https://raw.githubusercontent.com/eosiswastaken/books-scraper/main/.github/assets/bs4.png"/>
 
-![image](https://raw.githubusercontent.com/eosiswastaken/books-scraper/main/.github/assets/bs4.png)
-
+</p>
 <br>
 
 <p align="center">
