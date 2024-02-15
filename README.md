@@ -1,7 +1,7 @@
 <br>
 <p align="center">
   
-  <img src="https://raw.githubusercontent.com/eosiswastaken/books-scraper/main/.github/assets/bs4.png?token=GHSAT0AAAAAACKP7XYNM6IVDYTVE5X6MZVMZON5B6Q"/>
+  <img src="https://funthon.files.wordpress.com/2017/05/bs.png?w=772"/>
 
 </p>
 <br>
