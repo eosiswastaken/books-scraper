@@ -1,13 +1,11 @@
 <br>
 
-![image](https://github.com/eosiswastaken/eosis.space/raw/main/assets/github/themes.gif)
+![image](https://raw.githubusercontent.com/eosiswastaken/books-scraper/main/.github/assets/bs4.png)
 
 <br>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
-  <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" />
-  <img src="https://vercelbadge.vercel.app/api/eosiswastaken/eosis.space?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
   <a href="https://gitmoji.dev">
   <img
     src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=for-the-badge"
@@ -16,67 +14,60 @@
 </a>
 </p>
 
-my personnal webpage and portfolio made with Javascript and jQuery. I've always loved the aesthetics of terminals, therefore I decided that my webpage would be one.
+Ce projet est un scraper pour [books.toscrape.com](https://books.toscrape.com) réalisé avec python et BeautifulSoup4.
 
 <br>
 
 ---
 
 👉 Features
-- multiple commands
-- keyboard shortcuts
-- fully responsive
-- themes
-- animated menu bar to navigate between projects
-- clean code
-- localStorage user settings saving
-- lighthouse optimized (xx/100) (soon)
-- meta tags
-- secret commands
+- Récupération d'un livre
+- Enregistrement des données pour chaque livre dans un fichier .csv
+- Récupération automatique de chaque livre pour une catégorie donnée
+- Téléchargement des images de chaque livre automatique
 
-<br>
-
----
-
-
-👉 Adding themes
-
-Each theme is contained in 6 self-explanatory CSS variables, defined in the `themes.css` file. The variables are wrapped inside a `data-theme` selector, where the value of the selector is the name of your theme. This is used to switch themes and apply the rules when switching. Feel free to use other CSS rules and variables if you want to make a more complex theme.
-
-
-```css
-[data-theme='ayu'] {
-    --background: #0d1017;
-    --text: #a58d89;
-    --accent: #a2d14a;
-    --error: #e21c51;
-    --command: #e6b450;
-    --highlight: #d8dcb4;
-}
-```
-
-To add a theme, simply modify the `themes.css` file, and submit a PR.
-
-
-<br>
 
 ---
 
 👉 Quickstart
 
-clone the repository
+cloner le repo
 
 ```bash
-git clone https://github.com/eosiswastaken/eosis.space.git
+git clone https://github.com/eosiswastaken/books-scraper.git
 ```
 
-go to the site's directory
+entrer dans le repo
 
 ```bash
-cd eosis.space
+cd books-scraper
 ```
 
-and voila !
+quelques exemples d'utilisation du scraper :
+
+```python
+
+import script3 as scraper
+
+travelBooks = scraper.get_books_from_category("http://books.toscrape.com/catalogue/category/books/travel_2/index.html")
+
+  
+
+fantasyBooks = scraper.get_books_from_category("http://books.toscrape.com/catalogue/category/books/fantasy_19/index.html")
+
+  
+
+allBooks = travelBooks + fantasyBooks # récupération des livres de deux catégories puis concaténation de tous les livres en une variable
+
+for book in allBooks:
+
+    scraper.get_book(book) # recupere les données puis enregistre les données dans un .csv correspondant a la catégorie du livre
+
+  
+
+scraper.download_all_covers() # télécharge toutes les images des tous les livres scrapés
+```
+
 
 
 
