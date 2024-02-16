@@ -1,7 +1,9 @@
 <br>
+<p align="center">
+  
+  <img src="https://funthon.files.wordpress.com/2017/05/bs.png?w=772"/>
 
-![image](https://raw.githubusercontent.com/eosiswastaken/books-scraper/main/.github/assets/bs4.png)
-
+</p>
 <br>
 
 <p align="center">
@@ -41,6 +43,14 @@ entrer dans le repo
 
 ```bash
 cd books-scraper
+```
+
+(activer l'environnement virtuel)
+
+installer les dependencies
+
+```bash
+pip install -r requirements.txt
 ```
 
 quelques exemples d'utilisation du scraper :
