@@ -50,6 +50,7 @@ def get_book(URL) -> None:
     header = ['product_page_url', 'universal_product_code', 'title', 'price_including_tax', 'price_excluding_tax', 'number_available', 'product_description', 'category', 'review_rating', 'image_url']
     fileName = cat + ".csv" # Travel.csv, Horror.csv...
     with open(fileName, mode='a+', newline='', encoding="utf-8") as file:
+        print("Saving book : " + title)
         data_writer = csv.writer(file)
 
         file.seek(0) # on positionne le pointeur au tout debut du fichier
@@ -63,7 +64,5 @@ def get_book(URL) -> None:
         else: # sinon juste les data du livre car les colonnes sont deja présentes
             data_writer.writerow([URL, upc, title, price_incl, price_excl, quant, descr, cat, rating, img])
 
-
-        
 
 get_book("http://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html")
