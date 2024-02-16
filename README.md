@@ -27,6 +27,7 @@ Ce projet est un scraper pour [books.toscrape.com](https://books.toscrape.com) r
 - Enregistrement des données pour chaque livre dans un fichier .csv
 - Récupération automatique de chaque livre pour une catégorie donnée
 - Téléchargement des images de chaque livre automatique
+- Affichage de diagrammes avec les données des livres scrapés
 
 
 ---
