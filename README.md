@@ -49,11 +49,11 @@ quelques exemples d'utilisation du scraper :
 
 import script3 as scraper
 
-travelBooks = scraper.get_books_from_category("http://books.toscrape.com/catalogue/category/books/travel_2/index.html")
+travelBooks = scraper.get_books_from_category("Travel")
 
   
 
-fantasyBooks = scraper.get_books_from_category("http://books.toscrape.com/catalogue/category/books/fantasy_19/index.html")
+fantasyBooks = scraper.get_books_from_category("Fantasy")
 
   
 
